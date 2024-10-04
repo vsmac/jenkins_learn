@@ -28,7 +28,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 
 # is used in Debian-based Linux distributions (such as Ubuntu) to update the local package index.
 sudo apt-get update
-git
+
 # is used to install the Jenkins 
 sudo apt-get install jenkins
 
