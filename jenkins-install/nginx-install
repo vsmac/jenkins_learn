@@ -19,7 +19,8 @@ http://nginx.org/packages/ubuntu lsb_release -cs nginx"
 | sudo tee /etc/apt/sources.list.d/nginx.list
 
 # To install nginx, run the following commands:
-sudo apt update sudo apt install nginx
+sudo apt update 
+sudo apt install nginx -y
 
 # To check nginx version:
 nginx -v
