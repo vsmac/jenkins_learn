@@ -26,3 +26,9 @@
 
  # is used to obtain an SSL/TLS certificate for the specified domain using Certbot with the Nginx plugin. 
   sudo certbot --nginx -d devopsworldconsultancy.com
+
+# why ssl is used
+ is used to secure the communication between a web server and a client (such as a web browser). 
+
+# where is the ssl used
+  is primarily used on websites, but its application can extend to any service where secure communication is necessary. 
