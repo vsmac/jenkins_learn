@@ -1,0 +1,34 @@
+ # what is proxy pass nginx
+  Proxy Pass is a directive in Nginx that allows you to pass requests from one server to another
+
+ # This is proxy pass nginx
+  server {
+      listen 80;
+      server_name your_domain.com;  # Replace with your domain
+
+      location / {
+          proxy_pass http://localhost:8080;  # Jenkins default port
+      }
+  }
+
+
+ # is used to test the Nginx configuration for syntax errors and other issues. 
+  sudo nginx -t
+
+ # is used to reload the Nginx web server configuration without stopping the server.
+  sudo nginx -s reload
+
+ # what is ssl
+  SSL (Secure Sockets Layer) is a cryptographic protocol that provides secure communication between a web server and
+
+ # s used to install Certbot and its Nginx plugin on a system that uses the Advanced Package Tool (APT), typically a Debian-based Linux distribution like Ubuntu. 
+  sudo apt install certbot python3-certbot-nginx
+
+ # is used to obtain an SSL/TLS certificate for the specified domain using Certbot with the Nginx plugin. 
+  sudo certbot --nginx -d devopsworldconsultancy.com
+
+# why ssl is used
+ is used to secure the communication between a web server and a client (such as a web browser). 
+
+# where is the ssl used
+  is primarily used on websites, but its application can extend to any service where secure communication is necessary. 
