@@ -1,3 +1,5 @@
+https://www.google.com/imgres?q=jenkins%20images&imgurl=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A676%2F1*fiOou8ZYaZe-Ka8NUyovMw.png&imgrefurl=https%3A%2F%2Faws.plainenglish.io%2Fintroduction-to-jenkins-in-devops-448e8a9c13a3&docid=svUYHzubYgfydM&tbnid=UgBCPM6OQbaeBM&vet=12ahUKEwjcof-3_YqJAxXWS2cHHb7uDnwQM3oECGwQAA..i&w=676&h=411&hcb=2&ved=2ahUKEwjcof-3_YqJAxXWS2cHHb7uDnwQM3oECGwQAA
+
 what is jenkins?
 Jenkins is an open-source automation server that enables developers to build, test, and deploy their software
 
